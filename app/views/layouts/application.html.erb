@@ -7,7 +7,14 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+  
+  <ul>
+    <li><a href='<%= static_pages_home_url %>'>Home</a></li>
+    <li><a href='<%= static_pages_about_url %>'>About</a></li>
+    <li><a href='<%= static_pages_contact_url %>'>Contact</a></li>
+    <li><a href='<%= static_pages_help_url %>'>Help</a></li>
+  </ul>
+  
   <body>
     <%= yield %>
   </body>
