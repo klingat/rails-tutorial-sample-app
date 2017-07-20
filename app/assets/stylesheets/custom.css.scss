@@ -29,7 +29,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 
 p {
@@ -47,14 +47,39 @@ p {
     letter-spacing: -0.5px;
     padding-top: 9px;
     font-weight: bold;
-}
-
-#logo:hover {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.5s;
+    }
 }
 
 .navbar {
     background-color: #605b6f;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: $gray-light;
+  padding: 0 20px 0 20px;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
