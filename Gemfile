@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.3'
+# bcrypt
+gem 'bcrypt', '3.1.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
 # Bootstrap
